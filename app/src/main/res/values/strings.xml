@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="hello">hello amira</string>
+    <string name="save_btn">save</string>
+    <string name="name_edit">Enter your name :</string>
+    <string name="email_edit">Enter your email : </string>
+    <string name="pass_edit">Enter your password : </string>
+    <string name="repass_edit">Renter your password : </string>
+    <string name="address_edit">Enter your address : </string>
+    <string name="phone_edit">Enter your phone : </string>
+</resources>
