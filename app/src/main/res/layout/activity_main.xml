@@ -10,8 +10,8 @@
 
 <ImageView
     android:id="@+id/img"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="@dimen/layout_width"
     android:src="@drawable/logo"
     android:layout_centerHorizontal="true"/>
 
@@ -56,12 +56,12 @@
             android:hint="@string/address_edit"
             android:inputType="text"/>
         <Button
-            android:layout_width="200dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
             android:text="@string/save_btn"
-            android:textSize="25dp"
-            android:textColor="#fff"
-            android:layout_marginTop="40dp"
+            android:textSize="@dimen/text_size_btn"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="@dimen/margin_top_btn"
             android:background="@color/colorPrimary"
             android:layout_gravity="center"/>
     </LinearLayout>
